@@ -1,49 +1,44 @@
-<!DOCTYPE html>
-<html>
-   <head>
-		<title>PiBi - PowerBi Embedded Solution</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="PiBi is a software as service platform that leds your company a simply use of Power Bi Embedded license or any dedicated capacity. Power Bi Córdoba, Argentina. Fabric Argentina." />
-		<meta name="author" content="ibarrau">
-		<meta name="keywords" content="Power Bi, Power Bi Embedded, Azure, Microsoft Fabric, Power Bi Cordoba, Power Bi Argentina, Azure Cordoba, Azure Argentina, Bi Cordoba, Bi Argentina"/>
-		<meta name="distribution" content="global" />
-		<meta http-equiv="Content-Language" content="es" />
-		<meta name="copyright" content="ibarrau" />		
-		<meta property="og:locale" content="es_ES">
-		<meta property="og:type" content="article">
-		<meta property="og:title" content="PiBi">
-		<meta property="og:url" content="http://www.piconsulting.com.ar/">
-		<meta property="og:site_name" content="Pi Consulting">		
-		<!--<link rel="icon" href="images/a.png" type="image/x-icon"> -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>		
-		<meta http-equiv = "refresh" content = "2; url = https://piconsulting.com.ar/home/aplicaciones/pibi/" />
-		 <style>
-      div {
-		padding-top: 100px;
-        width: 50%;
-        height: 640px;
-        margin: auto;
-		vertical-align:middle;
-        align-items:center;
-        justify-content:center;
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/assets/images/logo-pibi.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="¿Qué es PiBi? PiBi es una plataforma web como servicio (SaaS) como portal de inteligencia de negocios integrada como solución de tecnología Power Bi Embedded. Una construcción que interactúa con tu entorno de Azure y te permite distribuir informes de PowerBi de manera segura, simple y eficiente." />
+    <meta
+      name="keywords"
+      content="Power Bi, Power Bi Embedded, Power Bi externos, Power Bi login, PiBi, Pi Consulting, Embedded solution, solucion embedded, Power Bi Cordoba, Power Bi Argentina, Power Bi Perú, Power Bi Chile, Power Bi Colombia, Microsoft Fabric"
+    />
+    <meta property="og:title" content="PiBi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="PiBi" />
+    <meta
+      name="description"
+      content="PiBi is a software as service platform that leds your company a simply use of Power Bi Embedded license or any dedicated capacity. Power Bi Córdoba, Argentina. Fabric Argentina.""
+    />
+    <meta name="keywords" content="power bi informes" />
+    <meta http-equiv="Content-Language" content="es" />
+
+    <title>PiBi</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVWVG88H98"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
       }
-    </style>
-    </style>
-	<!-- Google tag (gtag.js) --> 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CVWVG88H98"></script> 
-	<script>
-	   window.dataLayer = window.dataLayer || [];
-	   function gtag(){dataLayer.push(arguments);}
-	   gtag('js', new Date());
-	   gtag('config', 'G-CVWVG88H98');
-	</script>
-	</head>
-	 <body>
-    <div style="text-align:center;">
-	  <img class="animate__rubberBand" src="LogoPiBi-Definitivo-fblanco.png" style="width:50%;">	  
-	  <br>
-	  <img src="loader.gif" style="width:40%;">
-    </div>
+      gtag('js', new Date())
+      gtag('config', 'G-CVWVG88H98')
+    </script>
+    <script type="module" src="src/main.jsx"></script>
   </body>
 </html>
